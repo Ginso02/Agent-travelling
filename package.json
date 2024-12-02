@@ -1,0 +1,28 @@
+{
+  "name": "agent-user",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vant/weapp": "^1.11.7",
+    "amfe-flexible": "^2.2.1",
+    "postcss": "^8.4.49",
+    "vant": "^4.9.9",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "less": "^4.2.1",
+    "postcss-pxtorem": "^6.1.0",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.1",
+    "vue-tsc": "^2.1.10"
+  }
+}
